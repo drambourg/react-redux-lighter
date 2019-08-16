@@ -10,9 +10,10 @@ import App from './App';
 import lightReducer from "./Reducer/lightReducer";
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
+import counterReducer from "./Reducer/counterReducer";
 
 const store = createStore(
-    lightReducer,
+    counterReducer,
     window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
 ReactDOM.render(
