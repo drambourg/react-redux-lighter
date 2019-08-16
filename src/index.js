@@ -9,6 +9,7 @@ import App from './App';
 
 import lightReducer from "./Reducer/lightReducer";
 import * as serviceWorker from './serviceWorker';
+import 'bootstrap/dist/css/bootstrap.css';
 
 const store = createStore(
     lightReducer,
