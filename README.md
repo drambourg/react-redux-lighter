@@ -1,6 +1,25 @@
 ## NetliFly Preview
 https://inspiring-hermann-96696f.netlify.com/
 
+## Objectives
+Creating a React Redux counter
+
+In a new React application, reuse the previous quest reducer (Counter in native js).
+
+Create a CounterContainer component which will display the counter value and which will include the various buttons enabling you to dispatch various actions.
+
+After having dispatched all the actions in the application by means of the various buttons, use the Redux DevTools export function to retrieve the state.json file. Add this file to your project root.
+
+Add the application to your GitHub and post the link to validate the quest.
+Critères de validation
+
+    The counterReducer.js file contains the reducer code
+    The CounterContainer.js file contains the counter value display code and the buttons to dispatch the actions
+    The index.js file contains the store creation code and provides the App with it via a Provider
+    The state.json file contains all the action names
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
